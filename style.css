@@ -294,7 +294,7 @@ h6 {
 
 .card:nth-child(1) .face.face2 {
   background-image: linear-gradient(
-    40deg,
+    50deg,
     #3caade 0%,
     #0fa4e8 45%,
     #0871bc 100%
@@ -304,7 +304,7 @@ h6 {
 
 .card:nth-child(2) .face.face2 {
   background-image: linear-gradient(
-    40deg,
+    50deg,
     #3caade 0%,
     #0fa4e8 45%,
     #0871bc 100%
