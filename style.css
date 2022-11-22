@@ -219,7 +219,8 @@ h2 {
   text-align: center;
 }
 .contai {
-  max-width: 50vw; /* alterei aqui*/
+  max-width: 50vw;
+  min-width: 50vh; /* alterei aqui*/
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 35px;
@@ -234,6 +235,7 @@ h2 {
   background: #000;
   border-radius: 15px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+  flex-wrap: nowrap;
 }
 .face {
   position: absolute;
