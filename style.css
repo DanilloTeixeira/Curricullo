@@ -231,4 +231,6 @@ h2 {
   height: 50px;
   margin-right: 40px;
   text-align: justify;
+  box-shadow: #5d5d5d 2px 8px 6px;
+  border-radius: 26px;
 }
