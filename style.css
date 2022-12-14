@@ -20,7 +20,7 @@ body {
   width: 100%;
   max-width: 1000px;
   min-height: 1000px;
-  background: white;
+  background: rgb(255, 255, 255);
   margin: 50px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -37,7 +37,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 .profileText .imgBx {
   position: relative;
@@ -80,9 +80,9 @@ body {
 }
 .title {
   font-style: italic;
-  color: rgb(255, 255, 255);
+  color: black;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 900;
   letter-spacing: 1px;
   margin-bottom: 20px;
   font-family: "Merriweather";
@@ -94,10 +94,9 @@ body {
   position: relative;
   list-style: none;
   margin: 10px 0;
-
   color: white;
-  font-size: "Dougle";
-  font-style: italic;
+  font-size: "poppins";
+  font-style: normal;
 }
 .contactInfo ul li .icon {
   display: inline-block;
@@ -107,7 +106,7 @@ body {
 }
 .contactInfo ul li span {
   color: whitesmoke;
-  font-weight: 300;
+  font-weight: 700;
 }
 .contactInfo.education li {
   margin-bottom: 15px;
@@ -115,7 +114,7 @@ body {
 .contactInfo.education h5 {
   color: #000000;
   font-weight: bold;
-  font-size: small;
+  font-size: medium;
 }
 .contactInfo.education h4 {
   font-weight: 500;
@@ -161,7 +160,7 @@ body {
   margin-bottom: 0;
 }
 .title2 {
-  color: rgb(0, 0, 0);
+  color: black;
   text-transform: uppercase;
   letter-spacing: 10px;
   margin-bottom: 5px;
@@ -186,9 +185,10 @@ p {
 h2 {
   text-shadow: #222222 3px 9px 8px;
 }
-.spa {
-  color: darkorange;
-  font-weight: bold;
+.analyst {
+  color: black;
+  font-weight: bolder;
+  font-family: "Merriweather", serif;
 }
 
 .img1 {
@@ -236,7 +236,34 @@ h2 {
 }
 .btnCv {
   background-color: #0275aa;
-  padding: 1px 190px 1px 190px;
+  padding: 10px 230px 10px 100px;
   color: #ffffff;
-  border: none;
+  border-color: #0275aa;
+  font-size: medium;
+  text-align: left;
+}
+.btnCv.btnCv:hover {
+  color: #000000;
+  font-weight: bold;
+  font-size: large;
+  text-align: end;
+}
+
+.imgg {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+.imgg:hover {
+  animation-name: rotate;
+  animation-duration: 750ms;
+  animation-direction: alternate;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
