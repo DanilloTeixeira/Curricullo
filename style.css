@@ -57,7 +57,7 @@ body {
 }
 .container .right_side {
   position: relative;
-  background: #ecf6fa;
+  background: #eaeaea;
   padding: 40px;
 }
 .profileText h2 {
@@ -94,7 +94,7 @@ body {
   position: relative;
   list-style: none;
   margin: 10px 0;
-  cursor: pointer;
+
   color: white;
   font-size: "Dougle";
   font-style: italic;
@@ -233,4 +233,10 @@ h2 {
   text-align: justify;
   box-shadow: #5d5d5d 2px 8px 6px;
   border-radius: 26px;
+}
+.btnCv {
+  background-color: #0275aa;
+  padding: 1px 190px 1px 190px;
+  color: #ffffff;
+  border: none;
 }
