@@ -265,5 +265,6 @@ h2 {
 }
 hr {
   background-color: #0275aa;
-  border: #0275aa;
+  border-color: #0275aa;
+  border: none;
 }
