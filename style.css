@@ -124,7 +124,6 @@ body {
   color: #ffffff;
   font-weight: 300;
   font-family: "Dougle";
-  font-style: italic;
 }
 .contactInfo.education h4 {
   color: white;
@@ -139,14 +138,6 @@ body {
   display: block;
   margin-top: 5px;
   display: inline-flex;
-}
-.contactInfo.linguagem .percent div {
-  position: relative;
-  width: 10%;
-  height: 6px;
-  background: rgb(253, 253, 253);
-  display: block;
-  margin-top: 5px;
 }
 .container .right_side {
   position: relative;
@@ -174,6 +165,7 @@ p {
   font-family: "Merriweather", sans-serif;
   font-size: small;
 }
+
 .about .box {
   display: flex;
   flex-direction: row;
@@ -234,21 +226,6 @@ h2 {
   box-shadow: #5d5d5d 2px 8px 6px;
   border-radius: 26px;
 }
-.btnCv {
-  background-color: #0275aa;
-  padding: 10px 230px 10px 100px;
-  color: #ffffff;
-  border-color: #0275aa;
-  font-size: medium;
-  text-align: left;
-}
-.btnCv.btnCv:hover {
-  color: #000000;
-  font-weight: bold;
-  font-size: large;
-  text-align: end;
-}
-
 .imgg {
   border-radius: 100px;
   width: 100px;
@@ -266,4 +243,27 @@ h2 {
   100% {
     transform: rotate(360deg);
   }
+}
+.btnCv {
+  background-color: #0275aa;
+  font-size: medium;
+  text-align: center;
+  bottom: 1px;
+  margin-top: 1px;
+}
+.btnCv:hover .cv2023 {
+  background-color: #0275aa;
+  box-sizing: border-box;
+  border-style: hidden;
+  color: #000;
+  cursor: pointer;
+}
+.cop {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 20%;
+}
+.cv2023 {
+  color: rgb(255, 255, 255);
+  font-size: small;
 }
