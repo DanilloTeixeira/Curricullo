@@ -122,8 +122,8 @@ body {
 }
 .contactInfo.education h4:nth-child(2) {
   color: #ffffff;
-  font-weight: 300;
-  font-family: "Dougle";
+  font-weight: 400;
+  font-family: "Merriweather", sans-serif;
 }
 .contactInfo.education h4 {
   color: white;
@@ -250,16 +250,20 @@ h2 {
   text-align: center;
 }
 .btnCv:hover .cv2023 {
-  background-color: #0275aa;
+  background-color: #ffffff;
   color: #000000;
 }
 .cop {
   text-align: center;
   color: #020202;
   margin-top: 15px;
-  margin-bottom: -21px;
+  margin-bottom: -31px;
 }
 .cv2023 {
   color: #ffffff;
   font-size: small;
+}
+hr {
+  background-color: #0275aa;
+  border: #0275aa;
 }
