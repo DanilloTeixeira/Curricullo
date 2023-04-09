@@ -8,6 +8,12 @@
   box-sizing: border-box;
   font-family: "Merriweather", sans-serif;
 }
+@media (max-width: 568px) {
+  .imgg:hover {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
 body {
   background: lightblue;
   display: flex;
@@ -251,7 +257,8 @@ h2 {
 }
 .btnCv:hover .cv2023 {
   background-color: #ffffff;
-  color: #000000;
+  color: #ffffff;
+  text-decoration: none;
 }
 .cop {
   text-align: center;
@@ -260,11 +267,33 @@ h2 {
   margin-bottom: -31px;
 }
 .cv2023 {
-  color: #ffffff;
+  color: #000000;
   font-size: small;
+  text-shadow: #1e1d1d 3px 3px 8px;
+  text-decoration: none;
 }
 hr {
   background-color: #0275aa;
   border-color: #0275aa;
   border: none;
+}
+#ltr {
+  text-align: start;
+  text-shadow: #bababa 5px 5px 5px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+h5 {
+  color: #000000;
+}
+.com {
+  color: #000000;
+  text-shadow: #bababa 5px 5px 5px;
+}
+.com2 {
+  color: #000000;
+  text-shadow: #bababa 5px 5px 5px;
+}
+.letra {
+  font-size: 20px;
 }
