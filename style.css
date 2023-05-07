@@ -10,16 +10,16 @@
 }
 @media (max-width: 568px) {
   .imgg:hover {
-    margin-right: 0;
+    margin-right: 0px;
     margin-bottom: 10px;
   }
 }
 body {
-  background: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-image: url(./img/textura-de-papel.jpg);
 }
 .container {
   position: relative;
@@ -296,4 +296,7 @@ h5 {
 }
 .letra {
   font-size: 20px;
+}
+img {
+  color: #ffffff;
 }
